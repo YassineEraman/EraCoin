@@ -11,7 +11,7 @@ namespace Neo
     /// </summary>
     public struct Fixed8 : IComparable<Fixed8>, IEquatable<Fixed8>, IFormattable, ISerializable
     {
-        private const long D = 100_000_000;
+        private const long D = 270_000_000;
         internal long value;
 
         public static readonly Fixed8 MaxValue = new Fixed8 { value = long.MaxValue };
